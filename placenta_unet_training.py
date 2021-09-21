@@ -22,7 +22,14 @@ np.random.seed(0)
 
 from torch.utils.data import Dataset, DataLoader, Subset
 from torchvision import transforms, datasets, models
-from torch.utils import data
+
+import random
+random.seed(0)
+import torch
+import torch.optim as optim
+from torch.optim import lr_scheduler
+import time
+import csv
 
 class PlacentaDataset(Dataset):
         
@@ -362,11 +369,7 @@ class Log:
 #                         Training
 ################################
 
-import torch
-import torch.optim as optim
-from torch.optim import lr_scheduler
-import time
-import csv
+
 
 ####################
 #Data set
@@ -395,9 +398,7 @@ test_size = len(placentaDataset) - training_size - validation_size
                       validation_size, test_size])"""
 
 
-import random
-random.seed(0)
-    
+
     
 fold_size = []
 for i in range(K-1):
