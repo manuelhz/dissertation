@@ -6,7 +6,7 @@ This is the implementation of Unet++ paper using pytorch. You can find the origi
 https://arxiv.org/pdf/1912.05074.pdf <br>
 
 ## U-Net: Convolutional Networks for Biomedical Image Segmentation
-To compare the performance and architecture, I also included U-Net code. You can find the original paper at
+This is the implementation of Unet paper using pytorch. You can find the original paper at
 http://lapi.fi-p.unam.mx/wp-content/uploads/UNET-Original-Paper.pdf
 
 
