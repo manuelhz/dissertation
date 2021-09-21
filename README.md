@@ -1,6 +1,16 @@
-# Pytorch code implemented Unet and Unet++ for BraTS and placenta data-sets.
+# Automatic medical image segmentation with Unet and Unet++
+This repository contains Unet and Unet++ Pytorch code implemented for BraTS-2020 and placenta-UoN data-sets.
 
-## code I used as a reference:
+## UNet++: A Nested U-Net Architecture for Medical Image Segmentation
+This is the implementation of Unet++ paper using pytorch. You can find the original paper at
+https://arxiv.org/pdf/1912.05074.pdf <br>
+
+## U-Net: Convolutional Networks for Biomedical Image Segmentation
+To compare the performance and architecture, I also included U-Net code. You can find the original paper at
+http://lapi.fi-p.unam.mx/wp-content/uploads/UNET-Original-Paper.pdf
+
+
+### code I used as a reference:
 
 Unet implementation : https://github.com/usuyama/pytorch-unet </br>
 Unet++ implementation: https://github.com/hellopipu/unet_plus
