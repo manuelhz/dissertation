@@ -5,7 +5,7 @@
 This dissertation project focuses on the automatic segmentation of medical images using advanced deep learning architectures, specifically U-Net and U-Net++. The primary datasets employed in this project are the Placenta dataset and the BraTS (Brain Tumor Segmentation) dataset. The objective is to enhance the accuracy and efficiency of medical image segmentation, a crucial task traditionally performed manually by radiologists.
 
 ## Abstract
-
+https://github.com/manuelhz/dissertation/blob/main/brrain2.png
 Medical MRI image segmentation is a critical task performed by radiologists to quantify pathology. Historically, this task has been handcrafted and time-consuming. In response to this challenge, a successful U-Net deep learning solution was presented at the University of Nottingham (UoN) last year. This work benchmarks the U-Net and introduces U-Net++ with the aim of improving the previous U-Net results. The project demonstrates the effectiveness of these models on the unique placenta dataset from UoN, achieving promising results.
 
 The training process was optimized with the Adam Optimizer, and the loss function employed was a combination of Dice and Binary Cross-Entropy (BCE) loss. The U-Net++ architecture, trained with deep supervision, was also tested with model pruning to enhance inference speed at the cost of some predictive capacity. Cross-validation results for the Placenta dataset yielded a Dice score of 0.9 [0.85, 0.95] for U-Net and 0.92 [0.89, 0.93] for U-Net++. The models were trained and tested on a NVIDIA 2080TI GPU running Red Hat Linux. The code for this implementation is available at: [GitHub Repository](https://github.com/manuelhz/dissertation).
