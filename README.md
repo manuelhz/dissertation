@@ -44,9 +44,11 @@ The BraTS dataset is a well-known benchmark in brain tumor segmentation, consist
 
 ### U-Net Architecture
 U-Net is a convolutional neural network designed for biomedical image segmentation. The architecture consists of a contracting path to capture context and a symmetric expanding path for precise localization.
+![](https://github.com/manuelhz/dissertation/blob/main/unet.png)
 
 ### U-Net++ Architecture
 U-Net++ builds upon the original U-Net by introducing dense skip pathways and deep supervision. This architecture aims to improve feature propagation and reduce the semantic gap between the encoder and decoder.
+![](https://github.com/manuelhz/dissertation/blob/main/unetplusplus.png)
 
 ## Results
 
